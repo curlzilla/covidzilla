@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# coronazilla: automating your obsessive statistics reloading
+#
+while :
+do
+  clear
+  curl -s -L covid19.trackercli.com/us
+  sleep 30
+done
